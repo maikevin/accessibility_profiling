@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  </head>
+  <body>
+    <header role="banner">
+      <h1> Can you help Tommy? </h1>
+    </header>
+    <main role="main">
+      <div class="container">
+        <div name="firstScreen" id="firstScreen">
+          <h2 class="center">Play through Tommys' Trivia to Win him over!</h2>
+          <h2 class="center">Click on Tommy to begin!</h2>
+          <img class="mainTommy" src="http://nick-intl.mtvnimages.com/uri/mgid:file:gsp:scenic:/international/nick.co.uk/shows/the-splat/characters/rugrats-tommy.jpg?quality=0.75&height=0&width=480&matte=true&crop=false" alt="Tommy from Rugrats"></img>
+        </div>
+        <form role = "form" method = "post" id="js-question-form" action="#">
+          <div id="questionList">
+          </div>
+          <div id="resultHistory">
+          </div>
+        </form>
+        <div>
+          <h3><span class="answerDisplay"></span></h3>
+        </div>
+      </div> 
+    </main>
+    <footer role="contentinfo">
+      <div id="showTommy">
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="index.js">
+    </script>
+  </body>
+</html>

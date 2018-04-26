@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+}
+
+.hidden {
+  display:none;
+}
+
+nav{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+body{
+  background-color: #f9d50b;
+  background-image: url("http://images6.fanpop.com/image/photos/36600000/Rugrats-image-rugrats-36685216-960-798.png");
+  background-repeat: repeat-x;
+  font-family: "Gaegu";
+}
+
+.container{
+  background-color: white;
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display:block;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+
+button{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 3px;
+  font-family: 'Bungee';
+  background-color: white;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus{
+  background-color:yellow;
+}
+
+header{
+  background-color: #B0E0E6;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  max-width: 90%;
+  width: 400px;
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #E6E6FA;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 90%;
+  width: 400px;
+  height: auto;
+  text-align:center;
+  border-radius: 3px;
+}
+
+.center {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width:50%;
+}
+
+.mainTommy{
+  height: 250px;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.reportTommy{
+  height: 100px;
+  width:50%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+
+#submitBTN{
+  text-align:center;
+}
